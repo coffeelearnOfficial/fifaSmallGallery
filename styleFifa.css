@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Secular-Regular;
+    src: url(fonts/SecularOne-Regular.ttf);
+}
+*{
+    padding: 0%;
+    top: 0%;
+    margin: 0%;
+}
+  /* FIFA COLORS */
+:root{
+  
+    --color-A: #5C1623;
+    --color-B: #4C689D;
+    --color-C: #E6D6CA;
+    --color-D: #93ABA9;
+
+    --players-names: #efebf5;
+    --frame-pic: #E7AF4C;
+
+}
+/* CONTENEDOR PRINCIPAL */
+.container{
+    font-family: Secular-Regular;
+    background-color: var(--color-A);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 10px;
+    max-height: 970px;
+    min-height: 1px;
+}
+/* ENCABEZADO */
+header{
+    background-color: none;
+    color: var(--color-C);
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+}
+/* SECCIÓN DE JUGADORES */
+.player-sec{
+    background-color: var(--frame-pic);
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+/* IMÁGENES */
+.images{
+    background-color: none;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+#cup{
+    width: 173px;
+    height: 100%;
+}
+/* BOTONES */
+button{
+    font-family: Secular-Regular;
+    background-color: var(--color-D);
+    color: var(--players-names);
+    width: 400px;
+    height: 70px;
+    font-size: 30px;
+}
+.btn-sec{
+    background-color: none;
+    text-align: center;
+    display: inline-grid;
+    justify-items: center;
+}
